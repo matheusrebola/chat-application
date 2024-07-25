@@ -1,4 +1,4 @@
-package chat.repositorys;
+package chat.repositories;
 
 import java.util.UUID;
 

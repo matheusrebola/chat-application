@@ -1,13 +1,13 @@
-package chat.repositorys;
+package chat.repositories;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import chat.entities.Conversations;
+import chat.entities.Messages;
 
 @Repository
-public interface ConversationsRepository extends JpaRepository<Conversations, UUID> {
+public interface MessagesRepository extends JpaRepository<Messages, UUID> {
 
 }
